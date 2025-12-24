@@ -1,0 +1,46 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
+
+function AboutCard() {
+  return (
+    <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hi everyone! I’m <span className="purple">Yashwinee Bisen</span>{" "}
+            from <span className="purple">Bhopal, India</span>.
+            <br />
+      
+            I hold an Btech in{" "}
+            <span className="purple">computer science and engineering</span> from{" "}
+            <span className="purple">oriental institute of science and technology bhopal</span>.
+            <br />
+            <br />
+            Outside of coding, I love engaging in activities that keep me
+            creative and inspired:
+          </p>
+
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Reading Books 
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Listening music 
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Traveling and Exploring New Places 🌍
+            </li>
+          </ul>
+
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p>
+          <footer className="blockquote-footer">Yashwinee</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
+  );
+}
+
+export default AboutCard;
