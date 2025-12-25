@@ -7,7 +7,7 @@ Personal portfolio website built using **React.js** to showcase my projects, ski
 ---
 
 ## 🔗 Live Demo
-👉 https://YOUR-VERCEL-URL.vercel.app
+👉 https://yashwinee-portfolio.vercel.app/
 
 ---
 
